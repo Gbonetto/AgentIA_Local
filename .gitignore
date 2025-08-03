@@ -1,0 +1,26 @@
+﻿# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# React
+build/
+coverage/
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+chroma_db/
+uploads/
+
+# Exclure les DB Chroma volumineuses
+backend/db/
+backend/vectordb/
+
+# IDEs & OS
+.vscode/
+*.log
+.DS_Store
+
+# Variables d'environnement
+.env
